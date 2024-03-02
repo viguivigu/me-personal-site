@@ -60,7 +60,7 @@ a{
 }
 .blackboxtf2{
 	margin-top: 50px;
-	margin-left: 24%;
+	margin-left: 29%;
 	background-color: #434852;
 	width: 800px;
 	height: 310px;
@@ -81,8 +81,10 @@ a{
 }
 .goleft{
 	text-align: left;
+	margin-left: -217px;
 }
 .gbbgtxth2{
+	margin-left: 270px;
 	margin-top: 80px;
 	width: 400px;
 	font-size: 35px;
@@ -103,7 +105,7 @@ a{
 .imgdiv{
 	width:400px;
 	height: 450px;
-	margin-left: 150px;
+	margin-left: 400px;
 	background-color: #777a81;
 }
 .lasth1{
@@ -112,14 +114,14 @@ a{
 }
 .prelasth2{
 	width: 500px;
-	margin-left: 34%;
+	margin-left: 36%;
 }
 .myprojects{
 	display: flex;
 }
 .projects{
 	margin-top: 69px;
-	margin-left: 270px;
+	margin-left: 361px;
 }
 .projectspng{
 	width: 370px;
@@ -129,17 +131,17 @@ a{
 	width: 370px;
 }
 .maybelasth1{
-	margin-left: 33%;
+	margin-left: 35%;
 	width: 500px;
 }
 .butndiv{
-	margin-left: 39%;
+	margin-left: 41%;
 }
 .ihatea{
 	color: #d4d4d4;
 	padding-top: 50px;
 	font-size: 30px;
-	margin-left: 265px;
+	margin-left: 350px;
 	width: 140px;
 }
 @media screen and (max-width: 480px) {
