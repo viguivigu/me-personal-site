@@ -95,6 +95,7 @@ a{
 	font-size: 35px;
 }
 .butndiv{
+	margin-left: 41%;
 	margin-top: 110px; 
 	border: none;
 	background-color: #4eaa57;
@@ -141,11 +142,15 @@ a{
 .maybelasth1{
 	width: 500px;
 }
-.butndiv{
-	margin-left: 41%;
-}
-#butndiv{
-	margin-left: -13%;
+.butndiv1{
+	margin-top: 110px; 
+	border: none;
+	background-color: #4eaa57;
+	height: 100px;
+	width: 300px;
+	border-radius: 50px;
+	text-align: center;
+	margin-left: auto;
 }
 #fdc1{
 	align-items: center;
