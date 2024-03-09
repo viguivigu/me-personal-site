@@ -144,12 +144,13 @@ a{
 .butndiv{
 	margin-left: 41%;
 }
-.butndiv:last-child{
-	margin-left: 0%;
+#butndiv{
+	margin-left: -13%;
 }
-.fdcfwacc:last-child{
+#fdc1{
 	align-items: center;
 }
+		/*sorry, pseudo-classes don't work for some reason*/
 .ihatea{
 	color: #d4d4d4;
 	padding-top: 50px;
