@@ -39,7 +39,7 @@ a{
 	background-color: #777a81;
 	width: 500px;
 	height: 500px;
-	margin: 20px 200px;
+	margin: 20px 100px;
 }
 .middleheadh1{
 	font-size: 40px;
@@ -60,10 +60,15 @@ a{
 }
 .blackboxtf2{
 	margin-top: 50px;
-	margin-left: 29%;
 	background-color: #434852;
 	width: 800px;
 	height: 310px;
+}
+.fdcfwacc{
+	display: flex;
+	align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 #c1onetxtbox{
 	color: #d4d4d4;
@@ -81,7 +86,7 @@ a{
 }
 .goleft{
 	text-align: left;
-	margin-left: -217px;
+	margin-left: -212px;
 }
 .gbbgtxth2{
 	margin-left: 270px;
@@ -114,14 +119,17 @@ a{
 }
 .prelasth2{
 	width: 500px;
-	margin-left: 36%;
 }
 .myprojects{
 	display: flex;
+    margin-top: 69px;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
-.projects{
-	margin-top: 69px;
-	margin-left: 361px;
+.projects:last-child{
+	margin-left: 500px;
 }
 .projectspng{
 	width: 370px;
@@ -131,19 +139,30 @@ a{
 	width: 370px;
 }
 .maybelasth1{
-	margin-left: 35%;
 	width: 500px;
 }
 .butndiv{
 	margin-left: 41%;
 }
+.butndiv:last-child{
+	margin-left: 0%;
+}
+.fdcfwacc:last-child{
+	align-items: center;
+}
 .ihatea{
 	color: #d4d4d4;
 	padding-top: 50px;
 	font-size: 30px;
-	margin-left: 350px;
 	width: 140px;
 }
+.flex:last-child{
+	flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
 @media screen and (max-width: 480px) {
 	
 	.headlink:nth-last-child(2){
