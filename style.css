@@ -1,4 +1,29 @@
+@keyframes slidefromleft {
+  from {
+    transform: translate(-50%, 0);
+  }
+  to {
+    transform: translate(25%, 25%;)
+  }
+}
+@keyframes slidefromtop{
+	from{
+		transform: translate(0%, -50%);
+	}
+	to{
+		transform: translate(25%, %);
+	}
+}
+@keyframes slidefromright{
+	from{
+		transform: translate(75%, 0%);
+	}
+	to{
+		transform: translate(0%, 0%);
+	}
+}
 body{
+	overflow-x:hidden;
 	margin: 0px;
 	font-family: sans-serif;
 }
@@ -19,6 +44,11 @@ a{
 #c1{
 	text-align: center;
 	color: #313131;
+	animation: 1.5s slidefromleft ease-out;
+}
+
+.animhead{
+	animation:1s slidefromtop ease-out;
 }
 .headlinks{
 	padding-top: 20px;	
@@ -78,7 +108,11 @@ a{
 }
 .grayblackbg{
 	text-align: center;
+	overflow: hidden;
 	padding: 50px 300px;
+}
+.animcont2{
+	animation: 1.5s slidefromright ease-out;
 }
 .gbbgtxth1{
 	margin-top: 10px;
