@@ -1,9 +1,9 @@
 @keyframes slidefromleft {
   from {
-    transform: translate(-50%, 0);
+    transform: translate(-50%, 0px);
   }
   to {
-    transform: translate(25%, 25%;)
+    transform: translate(0px, 0px);
   }
 }
 @keyframes slidefromtop{
@@ -11,7 +11,7 @@
 		transform: translate(0%, -50%);
 	}
 	to{
-		transform: translate(25%, %);
+		transform: translate(0px, 0px);
 	}
 }
 @keyframes slidefromright{
@@ -44,11 +44,51 @@ a{
 #c1{
 	text-align: center;
 	color: #313131;
-	animation: 1.5s slidefromleft ease-out;
 }
-
 .animhead{
-	animation:1s slidefromtop ease-out;
+	display: none;
+}
+.animhead.animation{
+    animation:1s slidefromtop ease-out;
+    animation-fill-mode: forwards;
+    display: block;
+}
+.c1anim{
+	display: none;
+}
+.c1anim.animation{
+	animation: 1.5s slidefromleft ease-out;
+	display: block;
+}
+.animcont{
+	display: none;
+}
+.animcont.animation{
+	animation: 1.5s slidefromright ease-out;
+	display: block;
+}
+.prefinanim{
+	display: none;
+}
+.prefinanim.animation1{
+		animation: 1.5s slidefromleft ease-out;
+		display: block;
+}
+.thefinanim{
+	display: none;
+}
+.thefinanim.animation2{
+		animation: 1.5s slidefromright ease-out;
+		display: block;
+}
+.fdcfwacc{
+	display: flex;
+	align-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#fdc1{
+	align-items: center;
 }
 .headlinks{
 	padding-top: 20px;	
@@ -94,12 +134,8 @@ a{
 	width: 800px;
 	height: 310px;
 }
-.fdcfwacc{
-	display: flex;
-	align-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-}
+
+
 #c1onetxtbox{
 	color: #d4d4d4;
 }
@@ -109,11 +145,9 @@ a{
 .grayblackbg{
 	text-align: center;
 	overflow: hidden;
-	padding: 50px 300px;
+	padding: 50px 0px;
 }
-.animcont2{
-	animation: 1.5s slidefromright ease-out;
-}
+
 .gbbgtxth1{
 	margin-top: 10px;
 	font-size: 45px;
@@ -186,9 +220,7 @@ a{
 	text-align: center;
 	margin-left: auto;
 }
-#fdc1{
-	align-items: center;
-}
+
 		/*sorry, pseudo-classes don't work for some reason*/
 .ihatea{
 	color: #d4d4d4;
@@ -204,75 +236,45 @@ a{
 }
 
 @media screen and (max-width: 480px) {
-	
-	.headlink:nth-last-child(2){
-		margin-left: 120px;	
+	.container{
+		padding-bottom: 60px;
 	}
-	.headlink:last-child{
-		margin-left: 70px;
+	.headlink{
+		margin-top: 20%;
 	}
 	.imagehead{
 		display: none;
 	}
 	.middleheadh1{
-		font-size: 40px;
+		font-size: 28pt;
 	}
 	.middleheadh2{
-		width: auto;
+		margin-top: 50px;
+		font-size: 20pt;
+		width: 420px;
 	}
-	.blackboxtf2{
-		margin-left: auto;
-		width: 100%;
+	.prelasth2{
+		width: 320px;
 	}
-	.grayblackbg{
-		padding: 50px 15px;
+	.projects:last-child{
+		margin-left: 0px;
 	}
-	.goleft{
-		text-align: center;
+	.maybelasth1{
+		width: 420px;
+		margin-top: 120px;
 	}
-	h2#gbbgtxt {
-	font-size: 19px;
-	}
-	.gbbgtxth2 {
+	.butndiv1{
 		margin-top: 0px;
 	}
 	.imgdiv{
 		display: none;
 	}
-	.butndiv{
-		margin-left: 40px;
-		text-align: center;
+	.gbbgtxth2{
+		margin-left: 255px;
+		width: 400px;
+		font-size: 22pt;
 	}
-	.prelasth2 {
-    	width: 100%;
-    	font-size: 15px;
-    	margin-left: auto;
-    }
-    .myprojects{
-    	display: block;
-    	align-items: center;
-    }
-    .projects{
-    	margin-left:auto;
-    }
-    .maybelasth1{
-    	width: 430px;
-    	font-size: 20px;
-    	margin-left: auto;
-    	margin-top: 50px;
-    } 
-    .butndiv:last-child{
-    	margin-top: auto;
-    	margin-left: 60px;
-    }
-    .flex{
-    	width: 100%;
-    }
-    .ihatea {
-  	  color: #d4d4d4;
-  	  padding-top: 34px;
-  	  font-size: 25px;
-  	  margin-left: 25px;
-  	  width: 117px;
-    	}
+	.blackboxtf2{
+		width: 420px;
+	}
 }
