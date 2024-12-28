@@ -197,8 +197,8 @@ a{
     flex-wrap: wrap;
     flex-direction: row;
 }
-.projects:last-child{
-	margin-left: 500px;
+.projects{
+	margin-left: 100px;
 }
 .projectspng{
 	width: 370px;
